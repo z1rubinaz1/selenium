@@ -3,6 +3,7 @@ jobs:
   build:
     docker: 
       - image: ubuntu:18.04
+    parallelism: 4
     steps:
       - run:
           command: |
