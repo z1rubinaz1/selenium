@@ -15,4 +15,5 @@ build:
           apt install ./google-chrome-stable_current_amd64.deb -y
           unzip chromedriver_linux64.zip
           pip3 install selenium
+          vmstat 60 1440 &
           python3 main.py
