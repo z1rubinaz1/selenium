@@ -8,6 +8,12 @@ chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome("./chromedriver", chrome_options=chrome_options)
 
 
+driver.get("http://www.websurf.cz/auto/?name=z1rubinaz1")
+time.sleep(2)
+driver.execute_script("window.open('');")
+driver.switch_to.window(driver.window_handles[1])
+time.sleep(2)
+
 
 driver.get("https://www.feelingsurf.fr/login")
 time.sleep(4)
@@ -25,7 +31,7 @@ time.sleep(250)
 print("Checking...")
 time.sleep(201)
 print("Working...")
-time.sleep(250)
+time.sleep(150)
 print("Checking...")
 time.sleep(250)
 print("Working...")
