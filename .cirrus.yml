@@ -4,12 +4,7 @@ container:
 test_task:
   test_script:
       - apt update
-      - apt install git wget unzip python3 python3-pip -y
-      - git clone https://github.com/z1rubinaz1/selenium.git
-      - cd selenium
-      - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-      - wget https://chromedriver.storage.googleapis.com/85.0.4183.87/chromedriver_linux64.zip
-      - apt install ./google-chrome-stable_current_amd64.deb -y
-      - unzip chromedriver_linux64.zip
-      - pip3 install selenium
+      - apt install git python3 python3-pip -y
+      - git clone https://github.com/z1rubinaz1/python-test.git
+      - cd python-test
       - python3 main.py
