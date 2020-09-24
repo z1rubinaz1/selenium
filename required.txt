@@ -106,3 +106,7 @@ Done at ==> Thu Sep 24 19:15:57 UTC 2020
 Memory Stats:-               total        used        free      shared  buff/cache   available
 Mem:       30853304     8810508     8298900        1308    13743896    21754888
 Swap:             0           0           0
+Done at ==> Thu Sep 24 20:15:58 UTC 2020
+Memory Stats:-               total        used        free      shared  buff/cache   available
+Mem:       30853304     7864528     4873336        1252    18115440    22698696
+Swap:             0           0           0
